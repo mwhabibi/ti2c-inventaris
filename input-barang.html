@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Barang</title>
+	<link rel="stylesheet" type="text/css" href="style-input.css">
+</head>
+<body>
+	<form action="process-input.php" method="post">
+		<h1>Input Barang</h1>
+
+		<label for="kode_barang">Kode Barang:</label>
+		<input type="text" name="kode_barang" id="kode_barang"><br>
+
+		<label for="nama_barang">Nama Barang:</label>
+		<input type="text" name="nama_barang" id="nama_barang"><br>
+
+		<label for="qty">Qty:</label>
+		<input type="text" name="qty" id="qty"><br>
+
+		<label for="satuan">Satuan:</label><br>
+		<select id="satuan" name="satuan">
+  		<option value="">Pilih Satuan</option>
+ 		<option value="Pcs">Pcs</option>
+  		<option value="Box">Box</option>
+  		<option value="Kg">Kg</option>
+		</select><br>
+
+		<label for="harga_beli">Harga Beli:</label>
+		<input type="text" name="harga_beli" id="harga_beli"><br>
+
+		<label for="harga_jual">Harga Jual:</label>
+		<input type="text" name="harga_jual" id="harga_jual"><br>
+
+		<label for="tanggal_masuk">Tanggal Masuk:</label>
+		<input type="date" name="tanggal_masuk" id="tanggal_masuk"><br><br>
+
+		<label for="tanggal_kadaluarsa">Tanggal Kadaluarsa:</label>
+		<input type="date" name="tanggal_kadaluarsa" id="tanggal_kadaluarsa"><br><br>
+
+		<label for="supplier">Supplier:</label>
+		<input type="text" name="supplier" id="supplier"><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
